@@ -21,8 +21,8 @@
 
         <ImageView
             android:id="@+id/pull_to_refresh_progress"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
             android:layout_centerVertical="true"
             android:layout_marginRight="10dp"
             android:layout_toLeftOf="@+id/load_more"
