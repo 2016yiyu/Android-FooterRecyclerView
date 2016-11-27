@@ -42,4 +42,6 @@ dependencies {
             }
         });
  ```
+ ####Thanks
+ [感谢](http://blog.csdn.net/jxxfzgy/article/details/47012097)[文章提供的思路]
 
