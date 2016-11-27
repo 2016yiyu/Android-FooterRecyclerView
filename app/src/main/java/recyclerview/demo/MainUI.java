@@ -47,7 +47,7 @@ public  void addData(){
         footer_rv=(FooterRecyclerView)findViewById(R.id.footer_rv);
         footer_rv.setLayoutManager(new LinearLayoutManager(this));
         //设置滑到底部自动加载
-        footer_rv.setmIsAutoLoadMore(false);
+        footer_rv.setmIsAutoLoadMore(true);
         //设置监听默认开启上拉加载
         footer_rv.setOnLoadListener(new FooterRecyclerView.OnLoadMoreListener() {
             @Override
