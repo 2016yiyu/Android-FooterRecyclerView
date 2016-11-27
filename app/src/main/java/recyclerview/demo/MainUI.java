@@ -18,7 +18,6 @@ public class MainUI extends AppCompatActivity {
         super.onCreate(savedInstanceState, persistentState);
        setContentView(R.layout.main_ui);
         initView();
-        Log.e("111111111","11111111111111");
     }
 
     private void initView() {
