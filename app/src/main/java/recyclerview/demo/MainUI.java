@@ -22,9 +22,11 @@ public class MainUI extends AppCompatActivity {
 
     private void initView() {
         footer_rv=(FooterRecyclerView)findViewById(R.id.footer_rv);
-        //滑到底部自动加载
+        //允许滑动到底部上拉加载
+        footer_rv.setEnabled(true);
+        //设置滑到底部自动加载
         footer_rv.setmIsAutoLoadMore(true);
-        //默认开启上拉加载
+        //设置监听默认开启上拉加载
         footer_rv.setOnLoadListener(new FooterRecyclerView.OnLoadMoreListener() {
             @Override
             public void onLoadMore() {

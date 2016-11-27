@@ -28,4 +28,18 @@ dependencies {
 </footer.android.FooterRecyclerView>
 ```
 ##方法说明
+```
+ footer_rv=(FooterRecyclerView)findViewById(R.id.footer_rv);
+        //允许滑动到底部上拉加载
+        footer_rv.setEnabled(true);
+        //设置滑到底部自动加载
+        footer_rv.setmIsAutoLoadMore(true);
+        //设置监听默认开启上拉加载
+        footer_rv.setOnLoadListener(new FooterRecyclerView.OnLoadMoreListener() {
+            @Override
+            public void onLoadMore() {
+                footer_rv.onLoadMoreComplete();//加载完成
+            }
+        });
+ ```
 
