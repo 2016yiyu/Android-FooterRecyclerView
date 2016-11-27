@@ -43,5 +43,5 @@ dependencies {
         });
  ```
 #####感谢
- 添加头部尾部借鉴[http://blog.csdn.net/jxxfzgy/article/details/47012097]
+ 添加头部尾部借鉴:http://blog.csdn.net/jxxfzgy/article/details/47012097
 
