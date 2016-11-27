@@ -3,3 +3,4 @@
 
 ###使用配置<br>
 _ _ _ _
+#####1.Add root build.gradle
