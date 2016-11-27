@@ -12,4 +12,9 @@ allprojects {
 		}
 	}
 ```
-- - - -
+#####2.build.gradle
+```
+dependencies {
+	        compile 'com.github.2016yiyu:Android-FooterRecyclerView:v1.0'
+	}
+```
