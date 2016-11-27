@@ -3,4 +3,12 @@
 
 ###使用配置<br>
 _ _ _ _
-#####1.Add root build.gradle
+####1.Add root build.gradle<br>
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
